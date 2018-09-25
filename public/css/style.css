@@ -1,0 +1,439 @@
+
+/*===================HEADER===================*/
+.top{
+    padding-top:10px;
+}
+#signin{
+    display: flex;
+    justify-content: space-around
+}
+#signin .input-group{
+    margin:0px 5px;
+}
+#signin .btn{
+    margin-left:10px;
+    padding:3px 18px !important;
+    color:white;
+}
+ .nav-link{
+    border-radius: 5px;
+    background:dodgerblue;
+    color:white;
+    padding:5px 18px;
+    display: inline-block;
+    margin-right:15px;
+} 
+/* .nav-link:hover{
+    background: orangered;
+} */
+
+#email, #password{
+    border-radius: 10px;
+}
+.top{
+    display:flex;
+    justify-content: space-between
+}
+/* .navbar{
+    display: flex;
+    flex:1;
+}
+*/
+/* .navbar-nav{
+    align-self:flex-start;
+    margin-left:180px !important;
+    flex:1;
+}  */
+.donate-btn{
+    align-self: flex-end;
+}
+/* .logo-nav-div{
+    display: inline;
+} */
+/* .logo-div{
+    background:url('../assests/logo_comm.svg');
+    height:100px;
+    width: 100px;
+} */
+
+.AdvertisementRate{
+padding-bottom: 25px;
+}
+.AdvertisementRate h1{
+    font: bold 30px 'Roboto', sans-serif;
+    margin: 3px 0 13px 0;
+    padding: 3px 0 3px 0;
+    color: #DF0005;
+}
+.AdvertisementRate p{
+    padding: 0 5px 0 10px;
+    float: left;
+    line-height: 25px;
+    color: #666666;
+   
+}
+
+/* ============================
+          About us
+=============================== */
+.About-body {
+    
+   
+    /* background-size: cover; */
+    /* height: 420px; 
+     width: 100%;  */
+    
+}
+
+.about-container {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    
+}
+.LatestNews-wrapper{
+    flex:1;
+    width:27%;
+    display:inline-block;
+}
+
+.Aboutus {
+    display: inline-block;
+    background:linear-gradient(rgb(5, 206, 241),whitesmoke);
+    width:95%;
+    height: 65px;
+    padding: 5px 5px;
+    border-bottom-left-radius:10px solid grey; 
+    margin-top: 35px;
+}
+
+
+.Aboutus h1:hover{
+    text-shadow: 2px 2px 5px black;
+
+}
+
+.content{
+    background-color:whitesmoke;
+    width:95%;
+    height:auto;
+    padding: 10px;
+}
+
+
+/* ==================================
+          Footer
+   =====================================*/
+   body{
+    margin:0;
+    padding:0;
+    background:white;
+ 
+    
+}
+
+
+.footer-body{
+ 
+    background:#262626;
+    position:absolute;
+    left:0;
+    right:0;
+    height: 90px;
+    /* margin-top: 422px; */
+}
+
+
+
+.footer-body .comp-title{
+    color:white;
+    text-align:center;
+    height: 50px;
+    padding:11px;
+    background: #262626;
+ 
+}
+.footer-body .social-icons{
+  
+    position: relative;
+    height: 37%;
+    padding: 15px 0px 15px 0px;
+}
+.footer-body .pushlish{
+    position: relative;
+    height: 45%;
+    padding: 10px;
+    text-align: center;
+    background: #262626;
+    color:white;
+}
+
+.social-icons{
+    background:#262626;
+}
+
+.icon{
+    display: flex;
+    position:absolute;
+
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.icon li{
+    list-style:none;
+}
+.icon li a{
+    width:35px;
+    height:35px;
+    background:#fff;
+    text-align: center;
+    line-height:35px;
+    font-size:20px;
+    margin: 0 10px;
+    display:block;
+    border-radius:50%;
+    position:relative;
+    overflow:hidden;
+    border: 3px solid #fff;
+    z-index:1;
+}
+
+.icon li a .fab{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+}
+
+.icon li a:hover .fab{
+    color:#fff;
+ transform: rotateY(360deg);
+
+}
+
+.icon li a:before {
+   content: '';
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width:100%;
+   height: 100%;
+   background:#f00;
+   transition: .5s; 
+   z-index:2;
+
+   }
+
+   .icon li a:hover:before{
+       top: 0;
+
+   }
+
+   .icon li:nth-child(1) a:before{
+       background:#3b5999;
+   }
+   .icon li:nth-child(2) a:before{
+    background:#55acee;
+}
+.icon li:nth-child(3) a:before{
+    background:#4dc247;
+}
+.icon li:nth-child(4) a:before{
+    background:#dd4b39;
+}
+.icon li:nth-child(5) a:before{
+    background:#cd201f;
+}
+.icon li:nth-child(6) a:before{
+    background:#0077B5;
+}
+
+  
+
+/* -------------slider---------------*/
+
+body {
+    margin: 0px;
+    padding:0px;
+    font-family: 'Roboto';
+    columns: #1b1b1b;
+}
+
+.flexbox_container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Fjalla One';
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-family: 'Fjalla One';
+    font-size: 20px;
+    margin: 0px 0px 5px;
+}
+
+
+
+/* -------------slider---------------*/
+
+.item_slider {
+    height:350px;
+    background-size: cover !important;
+    background-position: center center !important;
+    position: relative;
+    font-family: 'Fjalla One';
+}
+
+.item_slider .caption {
+    color:#fff;
+    right:0px;
+    padding: 20px;
+    padding-right: 400px;
+    text-align:center;
+    width:80%;
+    text-transform: uppercase;
+}
+
+.item_slider .caption h4 {
+    font-size:40px;
+    font-weight: 300;
+    margin: 50px;
+    text-align: center !important;
+}
+
+/* Arrow  */
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* ========LatestNews======== */
+  .LatestNews {
+    margin-top: 25px;
+    
+}
+.LatestNews h1{
+    background:linear-gradient(rgb(5, 206, 241),whitesmoke);
+}
+
+
+
+/*------------- ADVERISMENT*-----------------*/
+.adv_slider {
+   
+    background-size: cover !important;
+    background-position: center center !important;
+    position: relative;
+    font-family: 'Fjalla One';
+  
+}
+.adv_slider h1{
+    background:linear-gradient(rgb(5, 206, 241),whitesmoke);
+}
+.img {
+    position: relative;
+    height: 200px;
+    width: auto;
+    
+} 
+.wrapper{
+    display: flex;
+    background:blue;
+    height:500px;
+}
+.child-half{
+    flex:1;
+    height:400px;
+    background:yellow;
+}
+
+/* donation */
+
+  /* Make the image responsive */
+  .container img {
+    width: 80%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .donate_btn {
+    width: 200px;
+    height: 70px;
+    border-bottom-left-radius: 60px;
+    position: absolute;
+    top: 50%;
+  
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(51, 39, 224);
+    color: white;
+    font-size: 26px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .donate_btn:hover {
+    background-color: rgb(15, 70, 31);
+  }
+
+  /* Container holding the image and the text */
+  .container {
+  position: relative;
+  margin-left: 0px;
+  padding-left: 0px; 
+ }  
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+
+}
+
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
